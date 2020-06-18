@@ -24,5 +24,10 @@ namespace MirimCal
             var version = ConfigurationManager.AppSettings["version"];
             this.Text = school + " 신입생 내신성적 산출 프로그램 [ " + version + " ]";
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
